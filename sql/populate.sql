@@ -1,9 +1,9 @@
 -- Insert test data into the users table
 INSERT INTO users (username, email, password)
 VALUES
-('user1', 'user1@example.com', 'password1'),
-('user2', 'user2@example.com', 'password2'),
-('user3', 'user3@example.com', 'password3');
+('user1', 'password1'),
+('user2', 'password2'),
+('user3', 'password3');
 
 -- Insert test data into the notes table
 INSERT INTO notes (user_id, title, content)
