@@ -32,7 +32,6 @@ To populate the test data using the SQL file, follow these steps:
    - On the "Import" page, click the "Choose File" button and locate the SQL file on your local machine.
    - Once you have selected the file, click the "Go" button to import the SQL file.
    - phpMyAdmin will execute the SQL statements in the file and populate the tables with the test data.
-
 After completing these steps, you should have the note_app database with the required tables created, and the test data populated in the tables.
     Prepare the Application Files:
         Organize your application files into a folder structure, ensuring you have the following files:
