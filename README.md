@@ -34,7 +34,6 @@ To populate the test data using the SQL file, follow these steps:
    - phpMyAdmin will execute the SQL statements in the file and populate the tables with the test data.
 
 After completing these steps, you should have the note_app database with the required tables created, and the test data populated in the tables.
-
     Prepare the Application Files:
         Organize your application files into a folder structure, ensuring you have the following files:
             HTML files (login.html, register.html, dashboard.html)
@@ -42,12 +41,10 @@ After completing these steps, you should have the note_app database with the req
             JavaScript file (script.js)
             PHP files (login.php, register.php, notes.php, fetch_notes.php)
         Update the PHP files with the correct database connection information (hostname, username, password, and database name).
-
     Deploy the Application on WAMP Server:
         Copy your application folder (e.g., note_app) to the WAMP server's www directory (e.g., C:\wamp64\www).
         Ensure WAMP server is running (green "W" icon in the system tray).
         Open your web browser and navigate to http://localhost/note_app/login.html (replace note_app with your application folder name if different).
-
     Test the Application:
         Test the functionality of your application, including user registration, login, note creation, updating, and deletion. Verify that the application works correctly and troubleshoot any issues that arise.
 
